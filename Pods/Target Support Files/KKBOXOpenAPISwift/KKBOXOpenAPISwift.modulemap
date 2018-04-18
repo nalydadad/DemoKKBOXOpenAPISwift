@@ -1,0 +1,6 @@
+framework module KKBOXOpenAPISwift {
+  umbrella header "KKBOXOpenAPISwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
