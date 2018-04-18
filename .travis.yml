@@ -14,7 +14,7 @@ script:
 
 
 after_success:
-    - bash <(curl -s https://codecov.io/bash) -J 'DemoKKBOXOpenAPI'
+    - bash <(curl -s https://codecov.io/bash) -J 'DemoKKBOXOpenAPISwift'
 
 notifications:
   email:
