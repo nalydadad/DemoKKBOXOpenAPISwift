@@ -6,6 +6,7 @@ before_install:
   - xcpretty --version
   - xcodebuild -version
   - xcodebuild -showsdks
+  - gem install cocoapods
   - pod install
 
 script:
