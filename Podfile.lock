@@ -2,15 +2,21 @@ PODS:
   - KKBOXOpenAPISwift (1.1.3)
 
 DEPENDENCIES:
-  - KKBOXOpenAPISwift
+  - KKBOXOpenAPISwift (from `https://github.com/KKBOX/OpenAPI-Swift.git`, branch `master`)
 
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - KKBOXOpenAPISwift
+EXTERNAL SOURCES:
+  KKBOXOpenAPISwift:
+    :branch: master
+    :git: https://github.com/KKBOX/OpenAPI-Swift.git
+
+CHECKOUT OPTIONS:
+  KKBOXOpenAPISwift:
+    :commit: ecc35350cfd94703235354e0bb00e04d4ccb182d
+    :git: https://github.com/KKBOX/OpenAPI-Swift.git
 
 SPEC CHECKSUMS:
-  KKBOXOpenAPISwift: f367d87f0ce3108439c391d3b9ec0a26aafc05b0
+  KKBOXOpenAPISwift: ea7118cf1631d1097296c6b6f5ec2c94fd2f2853
 
-PODFILE CHECKSUM: 576289cf36cc6e440ca85e92c68822ae757408d4
+PODFILE CHECKSUM: 5cae8e77be66c6c05830b1a18b0fd6b448cd498d
 
 COCOAPODS: 1.5.0

@@ -6,8 +6,9 @@ target 'DemoKKBOXOpenAPI' do
   use_frameworks!
   platform :ios, '11.0'
 
-  # Pods for SIDEKKIX
-  pod 'KKBOXOpenAPISwift'
+  pod 'KKBOXOpenAPISwift',
+  :git => 'https://github.com/KKBOX/OpenAPI-Swift.git',
+  :branch => 'master'
 
   target 'DemoKKBOXOpenAPITests' do
     inherit! :search_paths
