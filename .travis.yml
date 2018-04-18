@@ -11,7 +11,7 @@ before_install:
 
 script:
   # - xcodebuild -project TryTDD.xcodeproj -scheme TryTDD -sdk iphonesimulator | xcpretty
-  - xcodebuild test -project TryTDD.xcodeproj -scheme TryTDDTests -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.2' -configuration Debug -enableCodeCoverage YES | xcpretty
+  - xcodebuild test -workspace DemoKKBOXOpenAPI.xcworkspace -scheme DemoKKBOXOpenAPI -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.2' -configuration Debug -enableCodeCoverage YES | xcpretty
 
 
 after_success:
