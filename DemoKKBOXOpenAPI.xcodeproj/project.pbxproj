@@ -17,6 +17,7 @@
 		0F265B912087A6BD00198615 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F265B902087A6BD00198615 /* APIManager.swift */; };
 		0F265B922087A6BD00198615 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F265B902087A6BD00198615 /* APIManager.swift */; };
 		0F265B932087A6C700198615 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F265B8E2087A6A600198615 /* SearchTableViewController.swift */; };
+		0FF772012088F7C400C14173 /* APIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF772002088F7C400C14173 /* APIManagerTests.swift */; };
 		1E4C7E5843C1A4514EBB705A /* Pods_DemoKKBOXOpenAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF071B0B96A3A35352D8F1A /* Pods_DemoKKBOXOpenAPITests.framework */; };
 		4E015D5D9B6DA894D5E5B86A /* Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D3E2545914E8E8E94071CB /* Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework */; };
 		4F3C7B51A25E559E12D081F5 /* Pods_DemoKKBOXOpenAPIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE31B3EF8B20D1C8360EB92 /* Pods_DemoKKBOXOpenAPIUITests.framework */; };
@@ -55,6 +56,7 @@
 		0F265B822087A66500198615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F265B8E2087A6A600198615 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		0F265B902087A6BD00198615 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0FF772002088F7C400C14173 /* APIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerTests.swift; sourceTree = "<group>"; };
 		16F9EE56874F1AEB8E3A9E8A /* Pods-DemoKKBOXOpenAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPIUITests/Pods-DemoKKBOXOpenAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		17551C88C574C2CB4295FDC0 /* Pods-DemoKKBOXOpenAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPITests.release.xcconfig"; sourceTree = "<group>"; };
 		2142E444BB05DE935B32F95B /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				0F1509B32088C22400D417C4 /* SearchTableViewControllerTests.swift */,
+				0FF772002088F7C400C14173 /* APIManagerTests.swift */,
 				0F1509B52088C84800D417C4 /* DummySDKStruct.json */,
 				0F265B772087A66500198615 /* Info.plist */,
 			);
@@ -416,6 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF772012088F7C400C14173 /* APIManagerTests.swift in Sources */,
 				0F265B922087A6BD00198615 /* APIManager.swift in Sources */,
 				0F265B932087A6C700198615 /* SearchTableViewController.swift in Sources */,
 				0F1509B42088C22400D417C4 /* SearchTableViewControllerTests.swift in Sources */,

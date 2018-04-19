@@ -9,33 +9,36 @@
 import UIKit
 import KKBOXOpenAPISwift
 
+protocol SearchTableViewcontrollerDelegate {
+    func searchTableViewController(tableViewController: SearchTableViewController, didSelectPlaylistAt index: Int, playlist: KKPlaylistInfo?)
+}
+
 class SearchTableViewController: UITableViewController {
     var playlist: [KKPlaylistInfo]?
+    var delegate: SearchTableViewcontrollerDelegate?
+    private let apiManager: APIManager
     
-    override init(style: UITableViewStyle) {
-        super.init(style: style)
+    init(apiManager: APIManager = APIManager.shared) {
+        self.apiManager = apiManager
+        super.init(style: .grouped)
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
+        self.title = "Featured Playlist"
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        refreshData()
-    }
 
-    func refreshData() {
-        APIManager.shared.fetchFeaturedPlaylists { [unowned self] (list, error) in
+    func fetchData() {
+        self.apiManager.fetchFeaturedPlaylists { [weak self] (list, error) in
             if let _ = error {
-                self.playlist = nil
+                self?.playlist = nil
             }
             else {
-                self.playlist = list?.playlists
+                self?.playlist = list?.playlists
             }
             DispatchQueue.main.async {
-                self.tableView.reloadData()
+                self?.tableView.reloadData()
             }
         }
     }
@@ -55,7 +58,7 @@ class SearchTableViewController: UITableViewController {
         
         switch indexPath.section {
         case 0:
-            cell.textLabel?.text = "fetch"
+            cell.textLabel?.text = "fetch data"
             cell.detailTextLabel?.text = ""
         case 1:
             if let playlist = playlist, let info = playlist.element(at: indexPath.row) {
@@ -70,13 +73,19 @@ class SearchTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return section == 0 ? "\"Use KKBOX-OpenAPI to fetch\"" : ""
+    }
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath)
         cell?.setSelected(false, animated: false)
         
+        self.delegate?.searchTableViewController(tableViewController: self, didSelectPlaylistAt: indexPath.item, playlist: self.playlist?.element(at: indexPath.item))
+        
         switch indexPath.section {
         case 0:
-            refreshData()
+            fetchData()
         default:
             break
         }
