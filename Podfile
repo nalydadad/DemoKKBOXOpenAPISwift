@@ -11,7 +11,7 @@ target 'DemoKKBOXOpenAPI' do
   :branch => 'master'
 
   target 'DemoKKBOXOpenAPITests' do
-    use_frameworks!
+    inherit! :search_paths
     # Pods for testing
   end
 
