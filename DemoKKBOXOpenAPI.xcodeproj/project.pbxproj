@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1509B42088C22400D417C4 /* SearchTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1509B32088C22400D417C4 /* SearchTableViewControllerTests.swift */; };
+		0F1509B62088C84800D417C4 /* DummySDKStruct.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F1509B52088C84800D417C4 /* DummySDKStruct.json */; };
+		0F1509B92088CF5400D417C4 /* DummySDKStruct.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F1509B52088C84800D417C4 /* DummySDKStruct.json */; };
 		0F265B612087A66300198615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F265B602087A66300198615 /* AppDelegate.swift */; };
 		0F265B682087A66500198615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F265B672087A66500198615 /* Assets.xcassets */; };
-		0F265B762087A66500198615 /* DemoKKBOXOpenAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F265B752087A66500198615 /* DemoKKBOXOpenAPITests.swift */; };
 		0F265B812087A66500198615 /* DemoKKBOXOpenAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F265B802087A66500198615 /* DemoKKBOXOpenAPIUITests.swift */; };
 		0F265B8F2087A6A600198615 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F265B8E2087A6A600198615 /* SearchTableViewController.swift */; };
 		0F265B912087A6BD00198615 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F265B902087A6BD00198615 /* APIManager.swift */; };
 		0F265B922087A6BD00198615 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F265B902087A6BD00198615 /* APIManager.swift */; };
 		0F265B932087A6C700198615 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F265B8E2087A6A600198615 /* SearchTableViewController.swift */; };
 		1E4C7E5843C1A4514EBB705A /* Pods_DemoKKBOXOpenAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF071B0B96A3A35352D8F1A /* Pods_DemoKKBOXOpenAPITests.framework */; };
+		4E015D5D9B6DA894D5E5B86A /* Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D3E2545914E8E8E94071CB /* Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework */; };
 		4F3C7B51A25E559E12D081F5 /* Pods_DemoKKBOXOpenAPIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE31B3EF8B20D1C8360EB92 /* Pods_DemoKKBOXOpenAPIUITests.framework */; };
 		86A78FADE5F2AE741D3D8D12 /* Pods_DemoKKBOXOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46310003F882C12B2BE5EF39 /* Pods_DemoKKBOXOpenAPI.framework */; };
 /* End PBXBuildFile section */
@@ -38,12 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F1509B32088C22400D417C4 /* SearchTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewControllerTests.swift; sourceTree = "<group>"; };
+		0F1509B52088C84800D417C4 /* DummySDKStruct.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DummySDKStruct.json; sourceTree = "<group>"; };
+		0F1509B72088CD2100D417C4 /* KKBOXOpenAPISwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KKBOXOpenAPISwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F265B5D2087A66300198615 /* DemoKKBOXOpenAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoKKBOXOpenAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F265B602087A66300198615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F265B672087A66500198615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F265B6C2087A66500198615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F265B712087A66500198615 /* DemoKKBOXOpenAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoKKBOXOpenAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F265B752087A66500198615 /* DemoKKBOXOpenAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoKKBOXOpenAPITests.swift; sourceTree = "<group>"; };
 		0F265B772087A66500198615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F265B7C2087A66500198615 /* DemoKKBOXOpenAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoKKBOXOpenAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F265B802087A66500198615 /* DemoKKBOXOpenAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoKKBOXOpenAPIUITests.swift; sourceTree = "<group>"; };
@@ -52,10 +57,13 @@
 		0F265B902087A6BD00198615 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		16F9EE56874F1AEB8E3A9E8A /* Pods-DemoKKBOXOpenAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPIUITests/Pods-DemoKKBOXOpenAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		17551C88C574C2CB4295FDC0 /* Pods-DemoKKBOXOpenAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		2142E444BB05DE935B32F95B /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig"; sourceTree = "<group>"; };
 		22F4CA63A6A613C744A05053 /* Pods-DemoKKBOXOpenAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPI/Pods-DemoKKBOXOpenAPI.release.xcconfig"; sourceTree = "<group>"; };
 		46310003F882C12B2BE5EF39 /* Pods_DemoKKBOXOpenAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoKKBOXOpenAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF83AD106550B8EF0E3CDFA /* Pods-DemoKKBOXOpenAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPITests.debug.xcconfig"; sourceTree = "<group>"; };
 		545243C66186AE6E165BC739 /* Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPIUITests/Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61401B11B001400E6C35749E /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		68D3E2545914E8E8E94071CB /* Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE31B3EF8B20D1C8360EB92 /* Pods_DemoKKBOXOpenAPIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoKKBOXOpenAPIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD628F9BC9FDC6F06CF2E60 /* Pods-DemoKKBOXOpenAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKKBOXOpenAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKKBOXOpenAPI/Pods-DemoKKBOXOpenAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		CDF071B0B96A3A35352D8F1A /* Pods_DemoKKBOXOpenAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoKKBOXOpenAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E4C7E5843C1A4514EBB705A /* Pods_DemoKKBOXOpenAPITests.framework in Frameworks */,
+				4E015D5D9B6DA894D5E5B86A /* Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +135,8 @@
 		0F265B742087A66500198615 /* DemoKKBOXOpenAPITests */ = {
 			isa = PBXGroup;
 			children = (
-				0F265B752087A66500198615 /* DemoKKBOXOpenAPITests.swift */,
+				0F1509B32088C22400D417C4 /* SearchTableViewControllerTests.swift */,
+				0F1509B52088C84800D417C4 /* DummySDKStruct.json */,
 				0F265B772087A66500198615 /* Info.plist */,
 			);
 			path = DemoKKBOXOpenAPITests;
@@ -144,9 +154,11 @@
 		3466CB795162A87C89210583 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F1509B72088CD2100D417C4 /* KKBOXOpenAPISwift.framework */,
 				46310003F882C12B2BE5EF39 /* Pods_DemoKKBOXOpenAPI.framework */,
 				CDF071B0B96A3A35352D8F1A /* Pods_DemoKKBOXOpenAPITests.framework */,
 				6BE31B3EF8B20D1C8360EB92 /* Pods_DemoKKBOXOpenAPIUITests.framework */,
+				68D3E2545914E8E8E94071CB /* Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,6 +172,8 @@
 				17551C88C574C2CB4295FDC0 /* Pods-DemoKKBOXOpenAPITests.release.xcconfig */,
 				545243C66186AE6E165BC739 /* Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig */,
 				16F9EE56874F1AEB8E3A9E8A /* Pods-DemoKKBOXOpenAPIUITests.release.xcconfig */,
+				2142E444BB05DE935B32F95B /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig */,
+				61401B11B001400E6C35749E /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -194,6 +208,7 @@
 				0F265B6D2087A66500198615 /* Sources */,
 				0F265B6E2087A66500198615 /* Frameworks */,
 				0F265B6F2087A66500198615 /* Resources */,
+				6F31E64C99266A7FCC425467 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,7 +254,6 @@
 					};
 					0F265B702087A66500198615 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 0F265B5C2087A66300198615;
 					};
 					0F265B7B2087A66500198615 = {
 						CreatedOnToolsVersion = 9.3;
@@ -272,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1509B92088CF5400D417C4 /* DummySDKStruct.json in Resources */,
 				0F265B682087A66500198615 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1509B62088C84800D417C4 /* DummySDKStruct.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +345,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6F31E64C99266A7FCC425467 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KKBOXOpenAPISwift/KKBOXOpenAPISwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KKBOXOpenAPISwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8066B8EE644D2ADEBC8910D3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,7 +392,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DemoKKBOXOpenAPITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -384,7 +418,7 @@
 			files = (
 				0F265B922087A6BD00198615 /* APIManager.swift in Sources */,
 				0F265B932087A6C700198615 /* SearchTableViewController.swift in Sources */,
-				0F265B762087A66500198615 /* DemoKKBOXOpenAPITests.swift in Sources */,
+				0F1509B42088C22400D417C4 /* SearchTableViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +568,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2LBQQ4643;
 				INFOPLIST_FILE = DemoKKBOXOpenAPI/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = DADA.DemoKKBOXOpenAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -550,7 +587,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2LBQQ4643;
 				INFOPLIST_FILE = DemoKKBOXOpenAPI/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = DADA.DemoKKBOXOpenAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -560,37 +600,41 @@
 		};
 		0F265B892087A66500198615 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BF83AD106550B8EF0E3CDFA /* Pods-DemoKKBOXOpenAPITests.debug.xcconfig */;
+			baseConfigurationReference = 2142E444BB05DE935B32F95B /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2LBQQ4643;
 				INFOPLIST_FILE = DemoKKBOXOpenAPITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = DADA.DemoKKBOXOpenAPITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoKKBOXOpenAPI.app/DemoKKBOXOpenAPI";
 			};
 			name = Debug;
 		};
 		0F265B8A2087A66500198615 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17551C88C574C2CB4295FDC0 /* Pods-DemoKKBOXOpenAPITests.release.xcconfig */;
+			baseConfigurationReference = 61401B11B001400E6C35749E /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2LBQQ4643;
 				INFOPLIST_FILE = DemoKKBOXOpenAPITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = DADA.DemoKKBOXOpenAPITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoKKBOXOpenAPI.app/DemoKKBOXOpenAPI";
 			};
 			name = Release;
 		};
@@ -602,7 +646,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2LBQQ4643;
 				INFOPLIST_FILE = DemoKKBOXOpenAPIUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = DADA.DemoKKBOXOpenAPIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -619,7 +667,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2LBQQ4643;
 				INFOPLIST_FILE = DemoKKBOXOpenAPIUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = DADA.DemoKKBOXOpenAPIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

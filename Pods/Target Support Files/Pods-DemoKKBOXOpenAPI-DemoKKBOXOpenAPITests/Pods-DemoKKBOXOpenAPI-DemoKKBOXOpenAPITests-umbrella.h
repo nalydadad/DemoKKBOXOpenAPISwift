@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_DemoKKBOXOpenAPITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_DemoKKBOXOpenAPITestsVersionString[];
+FOUNDATION_EXPORT double Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITestsVersionString[];
 

@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DemoKKBOXOpenAPI/SearchTableViewController.swift"
-            timestampString = "545765051.125035"
+            timestampString = "545842793.853755"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DemoKKBOXOpenAPI/SearchTableViewController.swift"
-            timestampString = "545765051.125136"
+            timestampString = "545842793.853851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DemoKKBOXOpenAPI/SearchTableViewController.swift"
-            timestampString = "545765051.125211"
+            timestampString = "545842793.853923"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -54,11 +54,11 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "DemoKKBOXOpenAPI.SearchTableViewController.refreshData() -&gt; ()"
-                  moduleName = "DemoKKBOXOpenAPI"
+                  symbolName = "DemoKKBOXOpenAPITests.SearchTableViewController.refreshData() -&gt; ()"
+                  moduleName = "DemoKKBOXOpenAPITests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/DADA/Documents/iOS_project/DemoKKBOXOpenAPI/DemoKKBOXOpenAPI/SearchTableViewController.swift"
-                  timestampString = "545764670.098341"
+                  timestampString = "545842795.733013"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -69,11 +69,11 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;KKBOXOpenAPISwift.KKPlaylistList&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DemoKKBOXOpenAPI.SearchTableViewController.refreshData() -&gt; ()"
-                  moduleName = "DemoKKBOXOpenAPI"
+                  symbolName = "closure #1 (Swift.Optional&lt;KKBOXOpenAPISwift.KKPlaylistList&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DemoKKBOXOpenAPITests.SearchTableViewController.refreshData() -&gt; ()"
+                  moduleName = "DemoKKBOXOpenAPITests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/DADA/Documents/iOS_project/DemoKKBOXOpenAPI/DemoKKBOXOpenAPI/SearchTableViewController.swift"
-                  timestampString = "545764670.100334"
+                  timestampString = "545842795.735188"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -81,6 +81,22 @@
                   offsetFromSymbolStart = "105">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoKKBOXOpenAPI/APIManager.swift"
+            timestampString = "545841560.61882"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchFeaturedPlaylists(callback:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

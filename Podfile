@@ -11,7 +11,9 @@ target 'DemoKKBOXOpenAPI' do
   :branch => 'master'
 
   target 'DemoKKBOXOpenAPITests' do
-    inherit! :search_paths
+    pod 'KKBOXOpenAPISwift',
+    :git => 'https://github.com/KKBOX/OpenAPI-Swift.git',
+    :branch => 'master'
     # Pods for testing
   end
 

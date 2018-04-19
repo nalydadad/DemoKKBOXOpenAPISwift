@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08E0C2BA2715E11E0F5EA8A4A443102F /* Pods-DemoKKBOXOpenAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B63DE92CF2B77264F2DDA27F15035890 /* Pods-DemoKKBOXOpenAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08E0C2BA2715E11E0F5EA8A4A443102F /* Pods-DemoKKBOXOpenAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3388889FB504F60F4DA5F760170341 /* Pods-DemoKKBOXOpenAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F827B73406640E92B189AB159C6171D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		1600AAAEA23CA46DD57B4DE46D9DAA8D /* Pods-DemoKKBOXOpenAPIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 727872556F644707B5562973D33A6D41 /* Pods-DemoKKBOXOpenAPIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37086F11148D07AE11467693AB7956C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		3AC6DECEA996977CBD55032644F09933 /* Pods-DemoKKBOXOpenAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD62839BE94DED2D165EA162CD160E4 /* Pods-DemoKKBOXOpenAPI-dummy.m */; };
+		1600AAAEA23CA46DD57B4DE46D9DAA8D /* Pods-DemoKKBOXOpenAPIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9D5CB5C1F96FF2350FFA139C358E2D /* Pods-DemoKKBOXOpenAPIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C3C6D5F66E79FC46904F1A4E544EB7A /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23685E4BBF8417B13AD9B40124B92664 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC6DECEA996977CBD55032644F09933 /* Pods-DemoKKBOXOpenAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE9C5B2A827B386492986D3CFEC2E1 /* Pods-DemoKKBOXOpenAPI-dummy.m */; };
 		3CB0DB082C05EB73D8F418653529D1AE /* KKBOXOpenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D774CC358C5969A401669A3F7913FE0E /* KKBOXOpenAPI.swift */; };
 		4B64C1D7E730679E3A6618267BBFFCC6 /* KKBOXOpenAPIPrivateTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3A3DF7A6BAE98F75E907C8C730FF5D /* KKBOXOpenAPIPrivateTypes.swift */; };
-		60826E4A2DFEDD921FE61B53877517C7 /* Pods-DemoKKBOXOpenAPITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D3B9EFDAF9591DFCBA77E663141276 /* Pods-DemoKKBOXOpenAPITests-dummy.m */; };
+		61FF1CD0F8606E600CDEE1806DD51B42 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2393BFBAD5D6C7A9FFDCD736181F074 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-dummy.m */; };
 		6C5639CAAADA9F651D84D99488E5DBDB /* KKBOXOpenAPITypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C8A9E4BD7293ACB0DECB7441EDE664 /* KKBOXOpenAPITypes.swift */; };
+		90677F1DB7893C094B8DEC1F7AB56822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		947EC0B0FA9641FC0597755EB282A6CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		9B3853ED99C4C8164BD2578A602C238D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		A35FB45DCE2241217E1171BF83041D31 /* Pods-DemoKKBOXOpenAPITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7AC7DE9515062606069B4A07718483 /* Pods-DemoKKBOXOpenAPITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF6F1905CCF6BCBDAA7CDAF036FA8021 /* Pods-DemoKKBOXOpenAPIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A21EB929986805754FBDE010D5D720BA /* Pods-DemoKKBOXOpenAPIUITests-dummy.m */; };
+		AF6F1905CCF6BCBDAA7CDAF036FA8021 /* Pods-DemoKKBOXOpenAPIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BFACFF65E7C685027C7AD88805149A /* Pods-DemoKKBOXOpenAPIUITests-dummy.m */; };
 		C7C1F5B749EF0FC08EE95C60070F392E /* KKBOXOpenAPISwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B7EEEE7B47635F9829F1456C837D1A /* KKBOXOpenAPISwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E77C3CAB265A465DFA939D72520E727A /* KKBOXOpenAPISwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EACA7FB3562C2E299F86FADF95B2FF /* KKBOXOpenAPISwift-dummy.m */; };
 		FF1E880BD7BD7C312C39B95385375350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
@@ -33,14 +33,14 @@
 			remoteGlobalIDString = 94C3ACF73A7C5375168DDEB350ED31C1;
 			remoteInfo = "Pods-DemoKKBOXOpenAPI";
 		};
-		55DE3B231A9DA22459AD5E9DC6068C37 /* PBXContainerItemProxy */ = {
+		A353D82FF4169825ACC2249634573E7C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94C3ACF73A7C5375168DDEB350ED31C1;
-			remoteInfo = "Pods-DemoKKBOXOpenAPI";
+			remoteGlobalIDString = 24A0E6D1AB4FB29F3EFFB3443329536D;
+			remoteInfo = KKBOXOpenAPISwift;
 		};
-		A353D82FF4169825ACC2249634573E7C /* PBXContainerItemProxy */ = {
+		BFCE53C7205D6E75FE6F5FE69E933DA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -50,63 +50,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00896B4E925FFCC479D532905518840F /* Pods-DemoKKBOXOpenAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		02F5041C12F52B313A18DFA95C836FDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082E20A773E56269BD73C974C316E7EF /* Pods-DemoKKBOXOpenAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoKKBOXOpenAPI.modulemap"; sourceTree = "<group>"; };
+		0D93A5F905B355AEDDC97598756DC88A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11DDB1D68A40B89CD06C8036BD3A76D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		123DD5BB950394E55F148E340F47E571 /* Pods-DemoKKBOXOpenAPITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoKKBOXOpenAPITests.modulemap"; sourceTree = "<group>"; };
+		127D95A2DE22146D3D2374AC14516075 /* Pods-DemoKKBOXOpenAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPI-resources.sh"; sourceTree = "<group>"; };
 		1584B2CCC05F0315A448EFF2482FC8BD /* KKBOXOpenAPISwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKBOXOpenAPISwift-prefix.pch"; sourceTree = "<group>"; };
 		15C8A9E4BD7293ACB0DECB7441EDE664 /* KKBOXOpenAPITypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KKBOXOpenAPITypes.swift; path = Sources/KKBOXOpenAPISwift/KKBOXOpenAPITypes.swift; sourceTree = "<group>"; };
-		19530F27AFCFB6858EA2CC2DF8048524 /* Pods-DemoKKBOXOpenAPITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPITests-resources.sh"; sourceTree = "<group>"; };
-		1A7AC7DE9515062606069B4A07718483 /* Pods-DemoKKBOXOpenAPITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoKKBOXOpenAPITests-umbrella.h"; sourceTree = "<group>"; };
-		1CFA7EF6E550839753D64070FD0F48C0 /* Pods-DemoKKBOXOpenAPI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPI-frameworks.sh"; sourceTree = "<group>"; };
-		1DD62839BE94DED2D165EA162CD160E4 /* Pods-DemoKKBOXOpenAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoKKBOXOpenAPI-dummy.m"; sourceTree = "<group>"; };
-		21A87C22AD22C882FB05AA0EAEEB44BF /* Pods_DemoKKBOXOpenAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoKKBOXOpenAPITests.framework; path = "Pods-DemoKKBOXOpenAPITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		274821CF516A76EDEA19704E74DE3096 /* Pods-DemoKKBOXOpenAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPI.release.xcconfig"; sourceTree = "<group>"; };
+		23685E4BBF8417B13AD9B40124B92664 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-umbrella.h"; sourceTree = "<group>"; };
 		2B3A3DF7A6BAE98F75E907C8C730FF5D /* KKBOXOpenAPIPrivateTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KKBOXOpenAPIPrivateTypes.swift; path = Sources/KKBOXOpenAPISwift/KKBOXOpenAPIPrivateTypes.swift; sourceTree = "<group>"; };
 		36F4B30DE28B242B23AC7CCFE93805FA /* KKBOXOpenAPISwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKBOXOpenAPISwift.xcconfig; sourceTree = "<group>"; };
-		3BEE16848C0097C6616A74E30A184CBF /* Pods-DemoKKBOXOpenAPITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoKKBOXOpenAPITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3C208E1A326397CA92CE924F680E9823 /* Pods-DemoKKBOXOpenAPIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoKKBOXOpenAPIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3D5B328C9AD86A5F56A32D5A46D3EE50 /* Pods-DemoKKBOXOpenAPITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoKKBOXOpenAPITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		57863AA561A6C29CCB5572EC383EE035 /* Pods-DemoKKBOXOpenAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoKKBOXOpenAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
-		58F4BF5CA9D8D8997301DD41790F4AFB /* Pods-DemoKKBOXOpenAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoKKBOXOpenAPI.modulemap"; sourceTree = "<group>"; };
-		5AA0B297251CF90F7B58E37F9306C969 /* Pods-DemoKKBOXOpenAPIUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPIUITests-frameworks.sh"; sourceTree = "<group>"; };
-		5F604BB07E8E6B89909C6B422B95433D /* Pods-DemoKKBOXOpenAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPITests.release.xcconfig"; sourceTree = "<group>"; };
-		65C6D216B9076645F6544D2F67CCB870 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66FDEEC04696FD8EE079E7AD0C778479 /* Pods-DemoKKBOXOpenAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6A64E536A5893F97767D9870474B039C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EBC8B6158BC3E7E442A84F157F8AF80 /* Pods-DemoKKBOXOpenAPITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPITests-frameworks.sh"; sourceTree = "<group>"; };
-		727872556F644707B5562973D33A6D41 /* Pods-DemoKKBOXOpenAPIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoKKBOXOpenAPIUITests-umbrella.h"; sourceTree = "<group>"; };
+		3943AFBD3DBE1A226540FAAA96551B05 /* Pods-DemoKKBOXOpenAPIUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPIUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3CCE9C5B2A827B386492986D3CFEC2E1 /* Pods-DemoKKBOXOpenAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoKKBOXOpenAPI-dummy.m"; sourceTree = "<group>"; };
+		49BFACFF65E7C685027C7AD88805149A /* Pods-DemoKKBOXOpenAPIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoKKBOXOpenAPIUITests-dummy.m"; sourceTree = "<group>"; };
+		49D9776E414FDAD7BACF413085DFBCF1 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E9D5CB5C1F96FF2350FFA139C358E2D /* Pods-DemoKKBOXOpenAPIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoKKBOXOpenAPIUITests-umbrella.h"; sourceTree = "<group>"; };
+		582667A238F6159B23350F1FC85B0D95 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		668CBCFCE40BA526990ED6ADEE58A352 /* Pods-DemoKKBOXOpenAPIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoKKBOXOpenAPIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67118606ED7019D510EB3D3A02BDFB27 /* Pods-DemoKKBOXOpenAPI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPI-frameworks.sh"; sourceTree = "<group>"; };
+		716F2A21C7506255A8919DAB92AEB62A /* Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7199A133D44DA8CF03C913F2F11FC189 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.modulemap"; sourceTree = "<group>"; };
 		73B7EEEE7B47635F9829F1456C837D1A /* KKBOXOpenAPISwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKBOXOpenAPISwift-umbrella.h"; sourceTree = "<group>"; };
-		7BC7F2A487F6F809C1E21BEFEA138371 /* Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7F32A2A1BA3A7A76DDF2775C0C154A72 /* Pods-DemoKKBOXOpenAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPI-resources.sh"; sourceTree = "<group>"; };
-		899F1A802388523764B2C32EFE95C912 /* Pods-DemoKKBOXOpenAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8C76DE94A667A58B7E45155CF2DCB83A /* Pods-DemoKKBOXOpenAPIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoKKBOXOpenAPIUITests.modulemap"; sourceTree = "<group>"; };
-		8E60A976A411D7AC2B61ECABFBC7618F /* Pods_DemoKKBOXOpenAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoKKBOXOpenAPI.framework; path = "Pods-DemoKKBOXOpenAPI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		774A8F40E4C59FF48C12643A674D1550 /* Pods-DemoKKBOXOpenAPIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoKKBOXOpenAPIUITests.modulemap"; sourceTree = "<group>"; };
+		7A2801C781641A7A18D70C68D1BF5E9E /* Pods-DemoKKBOXOpenAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPI.release.xcconfig"; sourceTree = "<group>"; };
+		82A9DAFBB028C7BB0F82F9592B67FA9F /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E700792E53D8DB9571135892AA69DD8 /* Pods-DemoKKBOXOpenAPIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoKKBOXOpenAPIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		90545216860B2B066864A2698040EC3F /* KKBOXOpenAPISwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKBOXOpenAPISwift.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		966979D93F93B73289FE124B7920594C /* Pods-DemoKKBOXOpenAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPI.debug.xcconfig"; sourceTree = "<group>"; };
-		97A31DDE48CBB0FA2FD87E7BDCFD59B4 /* Pods-DemoKKBOXOpenAPIUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPIUITests-resources.sh"; sourceTree = "<group>"; };
-		99D3B9EFDAF9591DFCBA77E663141276 /* Pods-DemoKKBOXOpenAPITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoKKBOXOpenAPITests-dummy.m"; sourceTree = "<group>"; };
-		A21EB929986805754FBDE010D5D720BA /* Pods-DemoKKBOXOpenAPIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoKKBOXOpenAPIUITests-dummy.m"; sourceTree = "<group>"; };
+		9A8779A5A31EA96E552B370D3A68F823 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B61C88B15C9D6989560EB2649852B3 /* Pods_DemoKKBOXOpenAPIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoKKBOXOpenAPIUITests.framework; path = "Pods-DemoKKBOXOpenAPIUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EACA7FB3562C2E299F86FADF95B2FF /* KKBOXOpenAPISwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKBOXOpenAPISwift-dummy.m"; sourceTree = "<group>"; };
-		AF6C9E8F575CB2CCA625C2A9A42868A5 /* Pods-DemoKKBOXOpenAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoKKBOXOpenAPI-acknowledgements.plist"; sourceTree = "<group>"; };
-		B2D08AD130098A6EACCA1CB9ED525AD1 /* KKBOXOpenAPISwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKBOXOpenAPISwift.framework; path = KKBOXOpenAPISwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD75FB2FBD794FD2C209B8570A5A6971 /* Pods-DemoKKBOXOpenAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKKBOXOpenAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2393BFBAD5D6C7A9FFDCD736181F074 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-dummy.m"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B63DE92CF2B77264F2DDA27F15035890 /* Pods-DemoKKBOXOpenAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoKKBOXOpenAPI-umbrella.h"; sourceTree = "<group>"; };
+		BDE5A609C2B21692272E3F729618015B /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-frameworks.sh"; sourceTree = "<group>"; };
+		CA3388889FB504F60F4DA5F760170341 /* Pods-DemoKKBOXOpenAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoKKBOXOpenAPI-umbrella.h"; sourceTree = "<group>"; };
+		D336CB8B1799096F0A75004B7F0F9D15 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4053809F087AE4A1A8329A7FA76C48E /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-resources.sh"; sourceTree = "<group>"; };
 		D774CC358C5969A401669A3F7913FE0E /* KKBOXOpenAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KKBOXOpenAPI.swift; path = Sources/KKBOXOpenAPISwift/KKBOXOpenAPI.swift; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DFE88DF7F0E160FB9CD1403F158FD20A /* Pods-DemoKKBOXOpenAPIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoKKBOXOpenAPIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6C28D670C0AC941A6EA7B21A106A523 /* Pods_DemoKKBOXOpenAPIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoKKBOXOpenAPIUITests.framework; path = "Pods-DemoKKBOXOpenAPIUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3061BED770EE26C206C0F3BE8C804D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC4F5A512573CBEAA537642210375D2 /* KKBOXOpenAPISwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKBOXOpenAPISwift.framework; path = KKBOXOpenAPISwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD066F30D24631EF68A6982C45B99824 /* Pods-DemoKKBOXOpenAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoKKBOXOpenAPI-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE32D53CDE3BE4888642891366B95CC2 /* Pods-DemoKKBOXOpenAPIUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoKKBOXOpenAPIUITests-resources.sh"; sourceTree = "<group>"; };
+		E381CBB9AB26A092C5ED4C0ECE6BEBAF /* Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework; path = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52322447E7683655325085560E66FE2 /* Pods_DemoKKBOXOpenAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoKKBOXOpenAPI.framework; path = "Pods-DemoKKBOXOpenAPI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73D91A67B7C205180AEA3E95A12C10B /* Pods-DemoKKBOXOpenAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoKKBOXOpenAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1840CBDA5D270B36D116110ABF8B7EA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37086F11148D07AE11467693AB7956C8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9945DAB10982EF09F66AF4C841DAB830 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +115,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC9DDEE7E1D6C2093D446221DF667D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90677F1DB7893C094B8DEC1F7AB56822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD1B51E19E347A2A06489FFEA031EE27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,22 +135,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		249765A4A73A05AECCEDA07E5433ADFC /* Pods-DemoKKBOXOpenAPI */ = {
+		1BB8E76AB1451B106D39869DD458D891 /* Pods-DemoKKBOXOpenAPIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F3061BED770EE26C206C0F3BE8C804D1 /* Info.plist */,
-				58F4BF5CA9D8D8997301DD41790F4AFB /* Pods-DemoKKBOXOpenAPI.modulemap */,
-				57863AA561A6C29CCB5572EC383EE035 /* Pods-DemoKKBOXOpenAPI-acknowledgements.markdown */,
-				AF6C9E8F575CB2CCA625C2A9A42868A5 /* Pods-DemoKKBOXOpenAPI-acknowledgements.plist */,
-				1DD62839BE94DED2D165EA162CD160E4 /* Pods-DemoKKBOXOpenAPI-dummy.m */,
-				1CFA7EF6E550839753D64070FD0F48C0 /* Pods-DemoKKBOXOpenAPI-frameworks.sh */,
-				7F32A2A1BA3A7A76DDF2775C0C154A72 /* Pods-DemoKKBOXOpenAPI-resources.sh */,
-				B63DE92CF2B77264F2DDA27F15035890 /* Pods-DemoKKBOXOpenAPI-umbrella.h */,
-				966979D93F93B73289FE124B7920594C /* Pods-DemoKKBOXOpenAPI.debug.xcconfig */,
-				274821CF516A76EDEA19704E74DE3096 /* Pods-DemoKKBOXOpenAPI.release.xcconfig */,
+				9A8779A5A31EA96E552B370D3A68F823 /* Info.plist */,
+				774A8F40E4C59FF48C12643A674D1550 /* Pods-DemoKKBOXOpenAPIUITests.modulemap */,
+				668CBCFCE40BA526990ED6ADEE58A352 /* Pods-DemoKKBOXOpenAPIUITests-acknowledgements.markdown */,
+				8E700792E53D8DB9571135892AA69DD8 /* Pods-DemoKKBOXOpenAPIUITests-acknowledgements.plist */,
+				49BFACFF65E7C685027C7AD88805149A /* Pods-DemoKKBOXOpenAPIUITests-dummy.m */,
+				3943AFBD3DBE1A226540FAAA96551B05 /* Pods-DemoKKBOXOpenAPIUITests-frameworks.sh */,
+				DE32D53CDE3BE4888642891366B95CC2 /* Pods-DemoKKBOXOpenAPIUITests-resources.sh */,
+				4E9D5CB5C1F96FF2350FFA139C358E2D /* Pods-DemoKKBOXOpenAPIUITests-umbrella.h */,
+				716F2A21C7506255A8919DAB92AEB62A /* Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig */,
+				AD75FB2FBD794FD2C209B8570A5A6971 /* Pods-DemoKKBOXOpenAPIUITests.release.xcconfig */,
 			);
-			name = "Pods-DemoKKBOXOpenAPI";
-			path = "Target Support Files/Pods-DemoKKBOXOpenAPI";
+			name = "Pods-DemoKKBOXOpenAPIUITests";
+			path = "Target Support Files/Pods-DemoKKBOXOpenAPIUITests";
 			sourceTree = "<group>";
 		};
 		30FFD8DAFC03661FEE4BE2722EAEFB9F /* Pods */ = {
@@ -159,24 +159,6 @@
 				E1574B988B2BD87D0E5C62F7334D651D /* KKBOXOpenAPISwift */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		346E38896D40DBB4923AC66EBAA76921 /* Pods-DemoKKBOXOpenAPIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6A64E536A5893F97767D9870474B039C /* Info.plist */,
-				8C76DE94A667A58B7E45155CF2DCB83A /* Pods-DemoKKBOXOpenAPIUITests.modulemap */,
-				DFE88DF7F0E160FB9CD1403F158FD20A /* Pods-DemoKKBOXOpenAPIUITests-acknowledgements.markdown */,
-				3C208E1A326397CA92CE924F680E9823 /* Pods-DemoKKBOXOpenAPIUITests-acknowledgements.plist */,
-				A21EB929986805754FBDE010D5D720BA /* Pods-DemoKKBOXOpenAPIUITests-dummy.m */,
-				5AA0B297251CF90F7B58E37F9306C969 /* Pods-DemoKKBOXOpenAPIUITests-frameworks.sh */,
-				97A31DDE48CBB0FA2FD87E7BDCFD59B4 /* Pods-DemoKKBOXOpenAPIUITests-resources.sh */,
-				727872556F644707B5562973D33A6D41 /* Pods-DemoKKBOXOpenAPIUITests-umbrella.h */,
-				7BC7F2A487F6F809C1E21BEFEA138371 /* Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig */,
-				899F1A802388523764B2C32EFE95C912 /* Pods-DemoKKBOXOpenAPIUITests.release.xcconfig */,
-			);
-			name = "Pods-DemoKKBOXOpenAPIUITests";
-			path = "Target Support Files/Pods-DemoKKBOXOpenAPIUITests";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -196,16 +178,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6480604F2D8FD18CB80BBB77170C6067 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				249765A4A73A05AECCEDA07E5433ADFC /* Pods-DemoKKBOXOpenAPI */,
-				817182DAA6FB98C8CEAC5814D7D510B6 /* Pods-DemoKKBOXOpenAPITests */,
-				346E38896D40DBB4923AC66EBAA76921 /* Pods-DemoKKBOXOpenAPIUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		68D2A193C3C709A135C7543CB0F1A948 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,44 +192,33 @@
 			path = "../Target Support Files/KKBOXOpenAPISwift";
 			sourceTree = "<group>";
 		};
-		744B794BE1357991AD0DB1DCC1FFBEA9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B2D08AD130098A6EACCA1CB9ED525AD1 /* KKBOXOpenAPISwift.framework */,
-				8E60A976A411D7AC2B61ECABFBC7618F /* Pods_DemoKKBOXOpenAPI.framework */,
-				21A87C22AD22C882FB05AA0EAEEB44BF /* Pods_DemoKKBOXOpenAPITests.framework */,
-				E6C28D670C0AC941A6EA7B21A106A523 /* Pods_DemoKKBOXOpenAPIUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				30FFD8DAFC03661FEE4BE2722EAEFB9F /* Pods */,
-				744B794BE1357991AD0DB1DCC1FFBEA9 /* Products */,
-				6480604F2D8FD18CB80BBB77170C6067 /* Targets Support Files */,
+				E543B341474A2A98926984FF348EA91C /* Products */,
+				E9A12CB365C24CF946CD960AE0489DD7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		817182DAA6FB98C8CEAC5814D7D510B6 /* Pods-DemoKKBOXOpenAPITests */ = {
+		9336C71CFF798FF987A989D970D2ED8E /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests */ = {
 			isa = PBXGroup;
 			children = (
-				65C6D216B9076645F6544D2F67CCB870 /* Info.plist */,
-				123DD5BB950394E55F148E340F47E571 /* Pods-DemoKKBOXOpenAPITests.modulemap */,
-				3D5B328C9AD86A5F56A32D5A46D3EE50 /* Pods-DemoKKBOXOpenAPITests-acknowledgements.markdown */,
-				3BEE16848C0097C6616A74E30A184CBF /* Pods-DemoKKBOXOpenAPITests-acknowledgements.plist */,
-				99D3B9EFDAF9591DFCBA77E663141276 /* Pods-DemoKKBOXOpenAPITests-dummy.m */,
-				6EBC8B6158BC3E7E442A84F157F8AF80 /* Pods-DemoKKBOXOpenAPITests-frameworks.sh */,
-				19530F27AFCFB6858EA2CC2DF8048524 /* Pods-DemoKKBOXOpenAPITests-resources.sh */,
-				1A7AC7DE9515062606069B4A07718483 /* Pods-DemoKKBOXOpenAPITests-umbrella.h */,
-				66FDEEC04696FD8EE079E7AD0C778479 /* Pods-DemoKKBOXOpenAPITests.debug.xcconfig */,
-				5F604BB07E8E6B89909C6B422B95433D /* Pods-DemoKKBOXOpenAPITests.release.xcconfig */,
+				0D93A5F905B355AEDDC97598756DC88A /* Info.plist */,
+				7199A133D44DA8CF03C913F2F11FC189 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.modulemap */,
+				582667A238F6159B23350F1FC85B0D95 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-acknowledgements.markdown */,
+				D336CB8B1799096F0A75004B7F0F9D15 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-acknowledgements.plist */,
+				B2393BFBAD5D6C7A9FFDCD736181F074 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-dummy.m */,
+				BDE5A609C2B21692272E3F729618015B /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-frameworks.sh */,
+				D4053809F087AE4A1A8329A7FA76C48E /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-resources.sh */,
+				23685E4BBF8417B13AD9B40124B92664 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-umbrella.h */,
+				49D9776E414FDAD7BACF413085DFBCF1 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig */,
+				82A9DAFBB028C7BB0F82F9592B67FA9F /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.release.xcconfig */,
 			);
-			name = "Pods-DemoKKBOXOpenAPITests";
-			path = "Target Support Files/Pods-DemoKKBOXOpenAPITests";
+			name = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests";
+			path = "Target Support Files/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests";
 			sourceTree = "<group>";
 		};
 		E1574B988B2BD87D0E5C62F7334D651D /* KKBOXOpenAPISwift */ = {
@@ -272,22 +233,61 @@
 			path = KKBOXOpenAPISwift;
 			sourceTree = "<group>";
 		};
+		E543B341474A2A98926984FF348EA91C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC4F5A512573CBEAA537642210375D2 /* KKBOXOpenAPISwift.framework */,
+				E52322447E7683655325085560E66FE2 /* Pods_DemoKKBOXOpenAPI.framework */,
+				E381CBB9AB26A092C5ED4C0ECE6BEBAF /* Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework */,
+				A7B61C88B15C9D6989560EB2649852B3 /* Pods_DemoKKBOXOpenAPIUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9A12CB365C24CF946CD960AE0489DD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7E12FB9930B273D83E61AE8CD516B0B /* Pods-DemoKKBOXOpenAPI */,
+				9336C71CFF798FF987A989D970D2ED8E /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests */,
+				1BB8E76AB1451B106D39869DD458D891 /* Pods-DemoKKBOXOpenAPIUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7E12FB9930B273D83E61AE8CD516B0B /* Pods-DemoKKBOXOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				02F5041C12F52B313A18DFA95C836FDE /* Info.plist */,
+				082E20A773E56269BD73C974C316E7EF /* Pods-DemoKKBOXOpenAPI.modulemap */,
+				E73D91A67B7C205180AEA3E95A12C10B /* Pods-DemoKKBOXOpenAPI-acknowledgements.markdown */,
+				DD066F30D24631EF68A6982C45B99824 /* Pods-DemoKKBOXOpenAPI-acknowledgements.plist */,
+				3CCE9C5B2A827B386492986D3CFEC2E1 /* Pods-DemoKKBOXOpenAPI-dummy.m */,
+				67118606ED7019D510EB3D3A02BDFB27 /* Pods-DemoKKBOXOpenAPI-frameworks.sh */,
+				127D95A2DE22146D3D2374AC14516075 /* Pods-DemoKKBOXOpenAPI-resources.sh */,
+				CA3388889FB504F60F4DA5F760170341 /* Pods-DemoKKBOXOpenAPI-umbrella.h */,
+				00896B4E925FFCC479D532905518840F /* Pods-DemoKKBOXOpenAPI.debug.xcconfig */,
+				7A2801C781641A7A18D70C68D1BF5E9E /* Pods-DemoKKBOXOpenAPI.release.xcconfig */,
+			);
+			name = "Pods-DemoKKBOXOpenAPI";
+			path = "Target Support Files/Pods-DemoKKBOXOpenAPI";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		33485BC70A6D223EEA6BF2FBC1AFBE47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3C6D5F66E79FC46904F1A4E544EB7A /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		769C4A9BFC7D614A29A28D57C0C2C1A1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				08E0C2BA2715E11E0F5EA8A4A443102F /* Pods-DemoKKBOXOpenAPI-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		997E808DFF6097AEF131C52D3D183990 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A35FB45DCE2241217E1171BF83041D31 /* Pods-DemoKKBOXOpenAPITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,24 +310,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0A8D9C3509F2A83F3D095A472276BD0E /* Pods-DemoKKBOXOpenAPITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E9425F6AFC0AC7225D981BA2CBD3A51 /* Build configuration list for PBXNativeTarget "Pods-DemoKKBOXOpenAPITests" */;
-			buildPhases = (
-				C52F034A757486B2FB9BFF93C7569B02 /* Sources */,
-				1840CBDA5D270B36D116110ABF8B7EA3 /* Frameworks */,
-				997E808DFF6097AEF131C52D3D183990 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C0DB2401BEECAB22961F5938AB3CB502 /* PBXTargetDependency */,
-			);
-			name = "Pods-DemoKKBOXOpenAPITests";
-			productName = "Pods-DemoKKBOXOpenAPITests";
-			productReference = 21A87C22AD22C882FB05AA0EAEEB44BF /* Pods_DemoKKBOXOpenAPITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		24A0E6D1AB4FB29F3EFFB3443329536D /* KKBOXOpenAPISwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 724320CD913C43EFCB7F0F0159DC114B /* Build configuration list for PBXNativeTarget "KKBOXOpenAPISwift" */;
@@ -342,7 +324,7 @@
 			);
 			name = KKBOXOpenAPISwift;
 			productName = KKBOXOpenAPISwift;
-			productReference = B2D08AD130098A6EACCA1CB9ED525AD1 /* KKBOXOpenAPISwift.framework */;
+			productReference = DAC4F5A512573CBEAA537642210375D2 /* KKBOXOpenAPISwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		619C8A7FE20F17363BB4C20CA509A414 /* Pods-DemoKKBOXOpenAPIUITests */ = {
@@ -360,7 +342,25 @@
 			);
 			name = "Pods-DemoKKBOXOpenAPIUITests";
 			productName = "Pods-DemoKKBOXOpenAPIUITests";
-			productReference = E6C28D670C0AC941A6EA7B21A106A523 /* Pods_DemoKKBOXOpenAPIUITests.framework */;
+			productReference = A7B61C88B15C9D6989560EB2649852B3 /* Pods_DemoKKBOXOpenAPIUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84F3C387C968283B3BA9A7453ADC4A3E /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13327133CBD0DF2F230923D21147CC8F /* Build configuration list for PBXNativeTarget "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests" */;
+			buildPhases = (
+				7B168381357B641FC4A3119C080DA63D /* Sources */,
+				CC9DDEE7E1D6C2093D446221DF667D7E /* Frameworks */,
+				33485BC70A6D223EEA6BF2FBC1AFBE47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3FEE87CA5BF186D80ABDE66DA5F698C /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests";
+			productName = "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests";
+			productReference = E381CBB9AB26A092C5ED4C0ECE6BEBAF /* Pods_DemoKKBOXOpenAPI_DemoKKBOXOpenAPITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		94C3ACF73A7C5375168DDEB350ED31C1 /* Pods-DemoKKBOXOpenAPI */ = {
@@ -378,7 +378,7 @@
 			);
 			name = "Pods-DemoKKBOXOpenAPI";
 			productName = "Pods-DemoKKBOXOpenAPI";
-			productReference = 8E60A976A411D7AC2B61ECABFBC7618F /* Pods_DemoKKBOXOpenAPI.framework */;
+			productReference = E52322447E7683655325085560E66FE2 /* Pods_DemoKKBOXOpenAPI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -398,13 +398,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 744B794BE1357991AD0DB1DCC1FFBEA9 /* Products */;
+			productRefGroup = E543B341474A2A98926984FF348EA91C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				24A0E6D1AB4FB29F3EFFB3443329536D /* KKBOXOpenAPISwift */,
 				94C3ACF73A7C5375168DDEB350ED31C1 /* Pods-DemoKKBOXOpenAPI */,
-				0A8D9C3509F2A83F3D095A472276BD0E /* Pods-DemoKKBOXOpenAPITests */,
+				84F3C387C968283B3BA9A7453ADC4A3E /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests */,
 				619C8A7FE20F17363BB4C20CA509A414 /* Pods-DemoKKBOXOpenAPIUITests */,
 			);
 		};
@@ -438,11 +438,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C52F034A757486B2FB9BFF93C7569B02 /* Sources */ = {
+		7B168381357B641FC4A3119C080DA63D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60826E4A2DFEDD921FE61B53877517C7 /* Pods-DemoKKBOXOpenAPITests-dummy.m in Sources */,
+				61FF1CD0F8606E600CDEE1806DD51B42 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,11 +455,11 @@
 			target = 24A0E6D1AB4FB29F3EFFB3443329536D /* KKBOXOpenAPISwift */;
 			targetProxy = A353D82FF4169825ACC2249634573E7C /* PBXContainerItemProxy */;
 		};
-		C0DB2401BEECAB22961F5938AB3CB502 /* PBXTargetDependency */ = {
+		B3FEE87CA5BF186D80ABDE66DA5F698C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-DemoKKBOXOpenAPI";
-			target = 94C3ACF73A7C5375168DDEB350ED31C1 /* Pods-DemoKKBOXOpenAPI */;
-			targetProxy = 55DE3B231A9DA22459AD5E9DC6068C37 /* PBXContainerItemProxy */;
+			name = KKBOXOpenAPISwift;
+			target = 24A0E6D1AB4FB29F3EFFB3443329536D /* KKBOXOpenAPISwift */;
+			targetProxy = BFCE53C7205D6E75FE6F5FE69E933DA0 /* PBXContainerItemProxy */;
 		};
 		DDEDA24F8DD4DDDF7C5D63FC2C270DDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -530,7 +530,7 @@
 		};
 		12C0ADD3FF012B1485E60382FED84E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 966979D93F93B73289FE124B7920594C /* Pods-DemoKKBOXOpenAPI.debug.xcconfig */;
+			baseConfigurationReference = 00896B4E925FFCC479D532905518840F /* Pods-DemoKKBOXOpenAPI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -564,9 +564,81 @@
 			};
 			name = Debug;
 		};
+		2C4FC7624F71A227B4C6AA11B715F215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D9776E414FDAD7BACF413085DFBCF1 /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CFB96EA66773A50F77EE5D53497E990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A9DAFBB028C7BB0F82F9592B67FA9F /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		35334EA72120FB66D290788425615032 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 274821CF516A76EDEA19704E74DE3096 /* Pods-DemoKKBOXOpenAPI.release.xcconfig */;
+			baseConfigurationReference = 7A2801C781641A7A18D70C68D1BF5E9E /* Pods-DemoKKBOXOpenAPI.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -602,7 +674,7 @@
 		};
 		46F438604BFCAA4AB13F1C991E761711 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 899F1A802388523764B2C32EFE95C912 /* Pods-DemoKKBOXOpenAPIUITests.release.xcconfig */;
+			baseConfigurationReference = AD75FB2FBD794FD2C209B8570A5A6971 /* Pods-DemoKKBOXOpenAPIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -621,41 +693,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DemoKKBOXOpenAPIUITests/Pods-DemoKKBOXOpenAPIUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E82223E5ECF7B37AA9004A35AFBE04B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F604BB07E8E6B89909C6B422B95433D /* Pods-DemoKKBOXOpenAPITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DemoKKBOXOpenAPITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -798,43 +835,9 @@
 			};
 			name = Release;
 		};
-		BA9190C0438A93349AC69B696EA7B4D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66FDEEC04696FD8EE079E7AD0C778479 /* Pods-DemoKKBOXOpenAPITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DemoKKBOXOpenAPITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DemoKKBOXOpenAPITests/Pods-DemoKKBOXOpenAPITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F645D05479A433CD6DEA5C35001CA38F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BC7F2A487F6F809C1E21BEFEA138371 /* Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig */;
+			baseConfigurationReference = 716F2A21C7506255A8919DAB92AEB62A /* Pods-DemoKKBOXOpenAPIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -878,6 +881,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		13327133CBD0DF2F230923D21147CC8F /* Build configuration list for PBXNativeTarget "Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4FC7624F71A227B4C6AA11B715F215 /* Debug */,
+				2CFB96EA66773A50F77EE5D53497E990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -892,15 +904,6 @@
 			buildConfigurations = (
 				F645D05479A433CD6DEA5C35001CA38F /* Debug */,
 				46F438604BFCAA4AB13F1C991E761711 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4E9425F6AFC0AC7225D981BA2CBD3A51 /* Build configuration list for PBXNativeTarget "Pods-DemoKKBOXOpenAPITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA9190C0438A93349AC69B696EA7B4D7 /* Debug */,
-				5E82223E5ECF7B37AA9004A35AFBE04B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

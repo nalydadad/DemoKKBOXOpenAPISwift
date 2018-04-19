@@ -1,6 +1,0 @@
-framework module Pods_DemoKKBOXOpenAPITests {
-  umbrella header "Pods-DemoKKBOXOpenAPITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
