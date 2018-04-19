@@ -11,9 +11,7 @@ target 'DemoKKBOXOpenAPI' do
   :branch => 'master'
 
   target 'DemoKKBOXOpenAPITests' do
-    pod 'KKBOXOpenAPISwift',
-    :git => 'https://github.com/KKBOX/OpenAPI-Swift.git',
-    :branch => 'master'
+    use_frameworks!
     # Pods for testing
   end
 

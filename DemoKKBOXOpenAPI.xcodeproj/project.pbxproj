@@ -606,7 +606,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2142E444BB05DE935B32F95B /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2LBQQ4643;
 				INFOPLIST_FILE = DemoKKBOXOpenAPITests/Info.plist;
@@ -626,7 +625,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61401B11B001400E6C35749E /* Pods-DemoKKBOXOpenAPI-DemoKKBOXOpenAPITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2LBQQ4643;
 				INFOPLIST_FILE = DemoKKBOXOpenAPITests/Info.plist;
