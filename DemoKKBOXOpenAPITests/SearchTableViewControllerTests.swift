@@ -13,8 +13,20 @@ class SearchTableViewControllerTests: XCTestCase {
     
     // MARK: Test Return Value
     
+    func testNumberOfSectoins() {
+        // arrange
+        let tableViewController = SearchTableViewController()
+        
+        // act
+        let sections = tableViewController.numberOfSections(in: tableViewController.tableView)
+        
+        // assert
+        XCTAssert(sections == 2)
+    }
+    
     
     // MARK: Test State
+    
     func testTableViewTitle() {
         // arrange
         let tableViewController = SearchTableViewController()
@@ -38,7 +50,7 @@ class SearchTableViewControllerTests: XCTestCase {
     }
 
     
-    // MARK: Stub API Test
+    // MARK: Test Stubs
     
     func testNumberOfRowInSectionOneWithHasDataStubAPI() {
         // arrange
@@ -85,7 +97,7 @@ class SearchTableViewControllerTests: XCTestCase {
     }
     
     
-    // MARK: Mock Test
+    // MARK: Test Mock
     
     func testDidSelectPlaylistDelegate() {
         // arrange
@@ -102,12 +114,14 @@ class SearchTableViewControllerTests: XCTestCase {
 
 }
 
+// MARK: - Stub Classes
 
+/**
+ * Stub
+ * Pass a KKPlaylistList which contains 30 playlistInfo
+ */
 private class HasDataStubAPIManager: APIManager {
-    /**
-     * Stub
-     * A KKPlaylistList which contains 30 playlistInfo
-     */
+
     override func fetchFeaturedPlaylists(callback: @escaping (KKPlaylistList?, Error?) -> ()) {
         callback(parseDummyData()!, nil)
     }
@@ -127,24 +141,35 @@ private class HasDataStubAPIManager: APIManager {
     }
 }
 
+/**
+ * Stub
+ * Pass Error to Callback
+ */
+private class ErrorStubAPIManager: APIManager {
+    override func fetchFeaturedPlaylists(callback: @escaping (KKPlaylistList?, Error?) -> ()) {
+        callback(nil, MyError.NoData)
+    }
+
+    private enum MyError: Error {
+        case NoData
+    }
+}
+
+
+// MARK: - Mock Classes
+
+/**
+ * Mock
+ * A SearchTableViewControler's delegate
+ */
 private class MockSearchTableViewControllerDelegate: SearchTableViewcontrollerDelegate {
     var didRecieveDelegateSignal = false
     
     func searchTableViewController(tableViewController: SearchTableViewController, didSelectPlaylistAt index: Int, playlist: KKPlaylistInfo?) {
         self.didRecieveDelegateSignal = true
     }
-    
 }
 
 
-private class ErrorStubAPIManager: APIManager {
-    override func fetchFeaturedPlaylists(callback: @escaping (KKPlaylistList?, Error?) -> ()) {
-        callback(nil, MyError.NoData)
-    }
-}
-
-private enum MyError: Error {
-    case NoData
-}
 
 
