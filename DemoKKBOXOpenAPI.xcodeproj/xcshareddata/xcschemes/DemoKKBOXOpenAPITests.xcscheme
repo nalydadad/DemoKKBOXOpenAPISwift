@@ -45,16 +45,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0F265B5C2087A66300198615"
-            BuildableName = "DemoKKBOXOpenAPI.app"
-            BlueprintName = "DemoKKBOXOpenAPI"
-            ReferencedContainer = "container:DemoKKBOXOpenAPI.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -64,15 +54,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0F265B5C2087A66300198615"
-            BuildableName = "DemoKKBOXOpenAPI.app"
-            BlueprintName = "DemoKKBOXOpenAPI"
-            ReferencedContainer = "container:DemoKKBOXOpenAPI.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
