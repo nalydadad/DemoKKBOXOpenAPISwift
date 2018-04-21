@@ -38,7 +38,7 @@ class APIManager: NSObject {
                 return
             }
             
-            _ = try? self.API.fetchFeaturedPlaylists(callback: {
+            _ = try? self.API.fetchFeaturedPlaylists(territory: .taiwan, offset: 0, limit: 100, callback: {
                 result in
                 switch result {
                 case .error(let error):

@@ -86,6 +86,12 @@ class SearchTableViewController: UITableViewController {
         switch indexPath.section {
         case 0:
             fetchData()
+        case 1:
+            if let playlist = self.playlist?.element(at: indexPath.row) {
+                let viewController = PlaylistViewController(info: playlist)
+                self.navigationController?.pushViewController(viewController, animated: true)
+            }
+            
         default:
             break
         }
