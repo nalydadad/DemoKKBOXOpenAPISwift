@@ -15,6 +15,8 @@ let clientSecret = "b9202c7e7b1d995b18fd2674410474b5"
 class APIManager: NSObject {
     static let shared = APIManager()
     private (set) var API = KKBOXOpenAPI(clientID: clientID, secret: clientSecret)
+    var playlistCache: KKPlaylistList?
+    
     
     func doAPICallWithAccessToken(callback: @escaping (Error?) -> ()) {
         if let _ = self.API.accessToken {
@@ -39,11 +41,12 @@ class APIManager: NSObject {
             }
             
             _ = try? self.API.fetchFeaturedPlaylists(territory: .taiwan, offset: 0, limit: 100, callback: {
-                result in
+                [weak self] result in
                 switch result {
                 case .error(let error):
                     callback(nil, error)
                 case .success(let playlist):
+                    self?.playlistCache = playlist
                     callback(playlist, nil)
                 }
             })

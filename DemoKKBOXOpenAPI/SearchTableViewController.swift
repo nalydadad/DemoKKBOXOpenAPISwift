@@ -14,6 +14,7 @@ protocol SearchTableViewcontrollerDelegate {
 }
 
 class SearchTableViewController: UITableViewController {
+    var playlistList: KKPlaylistList?
     var playlist: [KKPlaylistInfo]?
     var delegate: SearchTableViewcontrollerDelegate?
     private let apiManager: APIManager
@@ -35,6 +36,7 @@ class SearchTableViewController: UITableViewController {
                 self?.playlist = nil
             }
             else {
+                self?.playlistList = list
                 self?.playlist = list?.playlists
             }
             DispatchQueue.main.async {
@@ -42,15 +44,21 @@ class SearchTableViewController: UITableViewController {
             }
         }
     }
+    
+    func clearData() {
+        self.playlist = nil
+        self.playlistList = nil
+        self.tableView.reloadData()
+    }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return self.playlistList == nil ? 1 : 4
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return (section == 0) ? 1 : self.playlist?.count ?? 0
+        return (section == 1) ? self.playlist?.count ?? 0 : 1
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -58,7 +66,7 @@ class SearchTableViewController: UITableViewController {
         
         switch indexPath.section {
         case 0:
-            cell.textLabel?.text = "fetch data"
+            cell.textLabel?.text = "Fetch data"
             cell.detailTextLabel?.text = ""
         case 1:
             if let playlist = playlist, let info = playlist.element(at: indexPath.row) {
@@ -67,6 +75,12 @@ class SearchTableViewController: UITableViewController {
                 cell.detailTextLabel?.text = info.owner.name
                 cell.detailTextLabel?.textColor = UIColor.gray
             }
+        case 2:
+            cell.textLabel?.text = "Cache Playlist Info"
+            cell.detailTextLabel?.text = ""
+        case 3:
+            cell.textLabel?.text = "Clear data"
+            cell.detailTextLabel?.text = ""
         default:
             break
         }
@@ -74,7 +88,16 @@ class SearchTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return section == 0 ? "\"Use KKBOX-OpenAPI to fetch\"" : ""
+        switch section {
+        case 0:
+            return "Use \"KKBOX-OpenAPI\" to fetch"
+        case 1:
+            return "\(self.playlist?.count ?? 0) playlists"
+        case 2:
+            return "Encoded data"
+        default:
+            return ""
+        }
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -91,7 +114,13 @@ class SearchTableViewController: UITableViewController {
                 let viewController = PlaylistViewController(info: playlist)
                 self.navigationController?.pushViewController(viewController, animated: true)
             }
-            
+        case 2:
+            if let playlistList = self.playlistList {
+                let viewController = DebugViewController(info: playlistList)
+                self.navigationController?.pushViewController(viewController, animated: true)
+            }
+        case 3:
+            clearData()
         default:
             break
         }
